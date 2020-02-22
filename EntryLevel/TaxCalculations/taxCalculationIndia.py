@@ -22,9 +22,12 @@ def validateEntry(resp):
 if __name__ == "__main__":
 
     print("--------------------------------------------------")
-    print("\tLet's see how much tax you are paying")
+    print("Let's see how much tax you are paying and better ways to reduce it")
     print("--------------------------------------------------")
 
     salary = validateEntry("Please enter your salary in Indian rupees - ")
     sav_80c = validateEntry("Please enter the amount invested in Section 80C - ")
+    sav_80ccd = validateEntry("Please enter the amount invested in Section 80C - ")
     sav_80d = validateEntry("Please enter the amount invested in Section 80D - ")
+    sav_80e = validateEntry("Please enter the amount paid for education load interest - ")
+    
